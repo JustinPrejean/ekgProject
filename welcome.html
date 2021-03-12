@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="instructions">
+        <h1>Instructions</h1>
+        <!-- <p>Instructions</p> -->
+        <ul>
+          <li>You have two hours to complete the exam</li>
+          <li>
+            Do not leave any area blank, if there is no applicable answer then
+            use "N/A"
+          </li>
+          <li>
+            Use any terminology that you are used to. i.e. PVC/VE - either will
+            work
+          </li>
+          <li>
+            You are not to use cell phones/computer/books to answer questions
+          </li>
+          <li>Be sure to choose the exam that was instructed previously</li>
+          <li>
+            Click "Submit" in the bottom right of the page to complete exam,
+            otherwise the answers will not be saved
+          </li>
+        </ul>
+        <input type="checkbox" name="" id="agree" /><strong>
+          I understand the instructions and will follow them to the best of my
+          ability.</strong
+        ><br />
+        <span id="agreeMsg" style="display: none;"
+          >Box must be checked to continue.</span
+        >
+        <br /><br />
+        <p>Click the correct test below to begin.</p>
+        <div class="buttons">
+          <button id="basicBtn">
+            Basic
+          </button>
+          <button id="advancedBtn">
+            Advanced
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="welcome.js"></script>
+  </body>
+</html>

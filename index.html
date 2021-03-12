@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>EKG Test Login</title>
+  </head>
+  <body>
+    <div class="login">
+      <header>
+        <h1></h1>
+      </header>
+      <div class="form">
+        <h2>Sign in Here</h2>
+        <form action="">
+          <input id="userName" type="text" placeholder="John Smith" /><br />
+          <input
+            input
+            type="email"
+            id="userEmail"
+            required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="JohnSmith@gmail.com"
+          />
+          <br />
+          <input id="userPhone" type="tel" placeholder="555-555-5555" />
+          <br />
+        </form>
+        <button type="button" id="loginSub" class="btn btn-secondary">
+          Submit
+        </button>
+        <span id="error" class="error">Enter valid information.</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
